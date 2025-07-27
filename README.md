@@ -28,7 +28,7 @@ sudo omd start mysite
 
 6. Access the web interface
 
-http://<your-server-ip>/<site-name>/
+http://your-server-ip/site-name/
 
 Note : You can check it on your VM running Ubuntu where you install the checkmk on ubuntu 22.04 you can open the firefox browser and type in the local IP which is http://127.0.0.1/mysite/ since the name of the site for this example is mysite.
 

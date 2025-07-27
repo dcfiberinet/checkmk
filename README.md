@@ -32,8 +32,6 @@ http://your-server-ip/site-name/
 
 Note : You can check it on your VM running Ubuntu where you install the checkmk on ubuntu 22.04 you can open the firefox browser and type in the local IP which is http://127.0.0.1/mysite/ since the name of the site for this example is mysite.
 
-Note : Now to check if you can acess it remotely on the ubunte where it is installed type in the terminal [ curl ifconfig.me ] to identify your ubuntu IP address. On your PC type in the IP of your Ubuntu then your site name Example http://192.168.1.100/mysite/ if its accessible then lets proceed to the next step.
-
 # 7. Changing the password
 Note : the default username is cmkadmin
 to set the password
@@ -63,3 +61,7 @@ cmk-passwd cmkadmin
 then restart [ odm restart ]
 
 Then access again your checkmk and Login.
+
+# Check IP address of UBUNTU
+
+ip addr show

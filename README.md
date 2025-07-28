@@ -5,17 +5,17 @@ Installation of Checkmk on UBUNTU 22.04 ( Jammy )
 
 # 1. System Update and Upgrade and Installation of additional functions.
 
-  ```sh
+  ```
   sudo apt update && sudo apt upgrade -y
   sudo apt install wget curl gnupg2 -y
   ```
 
 # 2. Download Checkmk Repository
-```sh
+```
 wget https://download.checkmk.com/checkmk/2.4.0p8/check-mk-raw-2.4.0p8_0.jammy_amd64.deb
 ```
 # 3. Installation of Checkmk
-```sh
+```
 sudo apt install ./check-mk-raw-2.4.0p8_0.jammy_amd64.deb
 ```
 # 4. Monitoring Site Creation

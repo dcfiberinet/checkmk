@@ -25,9 +25,9 @@ sudo omd create mysite
 Note : You can replace mysite by any name you prefer all small caps letter no space
 
 # 5. Start the site
-
+```
 sudo omd start mysite
-
+```
 # 6. Access the web interface
 
 http://your-server-ip/site-name/
@@ -37,33 +37,34 @@ Note : You can check it on your VM running Ubuntu where you install the checkmk 
 # 7. Changing the password
 Note : the default username is cmkadmin
 to set the password
-
+```
 sudo su - mysite
-
+```
 Note : you will see something like this [ OMD[mysite]:~$ ]
 
 Then input this command to change password
-
+```
 htpasswd etc/htpasswd cmkadmin
-
+```
 Then input your preferred password
 
 then restart the checkmk by typing this command
-
+```
 omd restart
-
+```
 Note : if this command does not change its password try this instead.
 
 sudo su - mysite
 
 then this command
-
+```
 cmk-passwd cmkadmin
-
+```
 then restart [ odm restart ]
 
 Then access again your checkmk and Login.
 
 # Check IP address of UBUNTU
-
+```
 ip addr show
+```

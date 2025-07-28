@@ -4,6 +4,8 @@
 
   ```
   sudo apt update && sudo apt upgrade -y
+  ```
+  ```
   sudo apt install wget curl gnupg2 -y
   ```
 

@@ -5,8 +5,8 @@ Installation of Checkmk on UBUNTU 22.04 ( Jammy )
 
 # 1. System Update and Upgrade and Installation of additional functions.
 
-<tag>sudo apt update && sudo apt upgrade -y
-sudo apt install wget curl gnupg2 -y</tag>
+<code>sudo apt update && sudo apt upgrade -y
+sudo apt install wget curl gnupg2 -y</code>
 
 # 2. Download Checkmk Repository
 

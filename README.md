@@ -1,7 +1,4 @@
-# checkmk
-Installation of Checkmk using Ubuntu 22.04 ( Jammy )
-
-Installation of Checkmk on UBUNTU 22.04 ( Jammy )
+# Installation of Checkmk using Ubuntu 22.04 ( Jammy )
 
 # 1. System Update and Upgrade and Installation of additional functions.
 

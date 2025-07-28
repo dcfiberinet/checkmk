@@ -11,17 +11,17 @@ Installation of Checkmk on UBUNTU 22.04 ( Jammy )
   ```
 
 # 2. Download Checkmk Repository
-
+```sh
 wget https://download.checkmk.com/checkmk/2.4.0p8/check-mk-raw-2.4.0p8_0.jammy_amd64.deb
-
+```
 # 3. Installation of Checkmk
-
+```sh
 sudo apt install ./check-mk-raw-2.4.0p8_0.jammy_amd64.deb
-
+```
 # 4. Monitoring Site Creation
-
+```
 sudo omd create mysite
-
+```
 Note : You can replace mysite by any name you prefer all small caps letter no space
 
 # 5. Start the site

@@ -2,6 +2,7 @@
 
 Ubuntu 22.04.5 LTS : https://bit.ly/ubuntu22045 <br />
 Checkmk 2.4.0p8 : https://bit.ly/checkmk240p8
+Youtube Tutorial : https://www.youtube.com/watch?v=VmgNdq4G53w
 
 # 1. System Preparations
 

@@ -3,7 +3,7 @@
 Ubuntu 22.04.5 LTS : https://bit.ly/ubuntu22045 <br />
 Checkmk 2.4.0p8 : https://bit.ly/checkmk240p8
 
-# 1. System Update and Upgrade and Installation of additional functions.
+# 1. System Preparations
 
   ```
   sudo apt update && sudo apt upgrade -y

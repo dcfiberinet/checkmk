@@ -1,5 +1,8 @@
 # Installation of Checkmk using Ubuntu 22.04 ( Jammy )
 
+Ubuntu 22.04.5 LTS : https://bit.ly/ubuntu22045
+Checkmk 2.4.0p8 : https://bit.ly/checkmk240p8
+
 # 1. System Update and Upgrade and Installation of additional functions.
 
   ```
@@ -43,7 +46,7 @@ Note : you will see something like this [ OMD[mysite]:~$ ]
 
 Then input this command to change password
 ```
-htpasswd etc/htpasswd cmkadmin
+cmk-passwd cmkadmin
 ```
 Then input your preferred password
 
@@ -51,15 +54,6 @@ then restart the checkmk by typing this command
 ```
 omd restart
 ```
-Note : if this command does not change its password try this instead.
-
-sudo su - mysite
-
-then this command
-```
-cmk-passwd cmkadmin
-```
-then restart [ odm restart ]
 
 Then access again your checkmk and Login.
 
